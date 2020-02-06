@@ -1,0 +1,40 @@
+body {
+  height: 95vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  height: auto;
+}
+
+header > h1 {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  height: 80vh;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+.header-bar {
+  border: solid black 2px;
+}
+
+.footer-bar {
+  border: solid black 2px;
+}
