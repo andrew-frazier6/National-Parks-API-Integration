@@ -55,3 +55,14 @@ footer {
   display: flex;
   flex-wrap: wrap;
 }
+
+.hamburger {
+  width: 60px;
+  height: 60px;
+  background-color: orange;
+  background-image: url("/assets/download.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  cursor: pointer;
+}
