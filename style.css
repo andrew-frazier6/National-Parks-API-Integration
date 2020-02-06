@@ -3,12 +3,13 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+  background-color: darkolivegreen;
 }
 
 header {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: khaki;
   color: white;
   height: auto;
 }
@@ -16,6 +17,15 @@ header {
 header > h1 {
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
 }
 
 main {
@@ -27,7 +37,7 @@ main {
 footer {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: khaki;
   color: white;
 }
 
@@ -37,4 +47,11 @@ footer {
 
 .footer-bar {
   border: solid black 2px;
+}
+
+.horizontal {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
