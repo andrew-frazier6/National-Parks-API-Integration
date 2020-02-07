@@ -1,5 +1,5 @@
-// because the burger is closed we're setting it to false as to whether it has
-// dropped down or not
+let url = "http://api.citybik.es/v2/networks";
+
 let toggleStatus = false;
 
 let toggleHamburger = function() {

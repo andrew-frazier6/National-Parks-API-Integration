@@ -13,9 +13,22 @@ body {
   width: 100%;
   height: 60px;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
   z-index: 1000;
   background-color: white;
+  border-bottom: solid 2px black;
+}
+
+.horizontal-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1000;
+  background-color: white;
+  border-top: solid 2px black;
 }
 
 .hamburger {
@@ -39,6 +52,7 @@ body {
   z-index: 1000;
   overflow: hidden;
   transition: all 0.7s ease-in-out;
+  border-right: solid 2px black;
 }
 
 .hamburger-dropdown ul {
@@ -108,10 +122,32 @@ body {
 } */
 
 .picture-box {
-  border: solid red 2px;
   width: 600px;
   height: 400px;
   margin: auto;
   background: white;
   box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.style-box-bottom-left {
+  width: 60px;
+  height: 60px;
+  background: black;
+}
+.style-box-bottom-right {
+  width: 60px;
+  height: 60px;
+  background: black;
+}
+.style-box-top-right {
+  width: 60px;
+  height: 60px;
+  background: black;
+}
+
+.right-side-bar {
+  border: solid black 2px;
+  background: cadetblue;
+  width: 60px;
+  box-sizing: border-box;
 }
