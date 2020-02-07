@@ -6,63 +6,51 @@ body {
   background-color: darkolivegreen;
 }
 
-header {
-  margin: 0;
-  padding: 0;
-  background-color: khaki;
-  color: white;
-  height: auto;
-}
-
-header > h1 {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-li {
-  list-style-type: none;
-}
-
-main {
-  margin: 0;
-  padding: 0;
-  height: 80vh;
-}
-
-footer {
-  margin: 0;
-  padding: 0;
-  background-color: khaki;
-  color: white;
-}
-
-.header-bar {
-  border: solid black 2px;
-}
-
-.footer-bar {
-  border: solid black 2px;
-}
-
 .horizontal {
-  height: 60px;
+  position: fixed;
+  top: 0;
   width: 100%;
+  height: 60px;
   display: flex;
   flex-wrap: wrap;
+  z-index: 1000;
+  background-color: white;
 }
 
 .hamburger {
   width: 60px;
-  height: 60px;
-  background-color: orange;
+  height: 100%;
   background-image: url("/assets/download.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   cursor: pointer;
+}
+
+.hamburger-dropdown {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  padding: 0 5px;
+  height: calc(100vh - 60px);
+  background-color: #1b1b1b;
+  z-index: 1000;
+}
+
+.hamburger:hover {
+  opacity: 0.2;
+}
+
+.horizontal ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+}
+
+.horizontal ul li {
+  list-style: none;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: bisque;
 }
