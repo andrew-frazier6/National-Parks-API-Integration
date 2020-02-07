@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: grey;
+  display: flex;
 }
 
 .horizontal {
@@ -37,7 +38,7 @@ body {
   background-color: cadetblue;
   z-index: 1000;
   overflow: hidden;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 .hamburger-dropdown ul {
@@ -52,6 +53,8 @@ body {
   list-style: none;
   line-height: 40px;
   color: black;
+  font-family: "Kalam", cursive;
+  font-size: 40px;
 }
 
 .hamburger-dropdown ul li span,
@@ -63,11 +66,14 @@ body {
   color: black;
   text-transform: uppercase;
   font-size: 14px;
-  opacity: 1;
-  transition: all 0.5 ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
-/*  */
-/*  */
+
+.hamburger-dropdown ul li span {
+  font-size: 18px;
+  text-decoration: underline black;
+}
+
 /* hover listeners  */
 .hamburger:hover {
   opacity: 0.2;
@@ -76,7 +82,7 @@ body {
 .hamburger-dropdown ul li a:hover {
   background-color: beige;
 }
-/*  */
+
 /* seprating both bars */
 
 .horizontal ul {
@@ -90,4 +96,22 @@ body {
   line-height: 30px;
   text-transform: uppercase;
   color: cadetblue;
+  font-family: "Kalam", cursive;
+  font-size: 20px;
+}
+
+/* section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.picture-box {
+  border: solid red 2px;
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  /* justify-content: center;
+  align-items: center center; */
 }
