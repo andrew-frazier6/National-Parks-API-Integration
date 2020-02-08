@@ -1,5 +1,18 @@
-let url = "http://api.citybik.es/v2/networks";
+let state = "id";
+let parkCodes = ["yose", "acad", "grte", "brca", "gaar", "yell"];
+// Yosemite, Acadia, Grand Teton, Bryce Canyon, Gates of the Artic, Yellowstone
+axios
+  .get(
+    `https://developer.nps.gov/api/v1/parks?&api_key=bRrLhFfbvZMWxHlCWDqPt45vwoNgz950IaYNYkmC&stateCode=${state}`
+  )
+  .then(res => {
+    console.log(res.data);
+  })
+  .catch(err => {
+    console.log("Error with the Search");
+  });
 
+//
 let toggleStatus = false;
 
 let toggleHamburger = function() {
