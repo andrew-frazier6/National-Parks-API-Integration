@@ -3,7 +3,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: grey;
+  background-color: rgba(71, 96, 71, 0.5);
   display: flex;
 }
 
@@ -14,9 +14,8 @@ body {
   height: 60px;
   display: flex;
   justify-content: space-between;
-  z-index: 1000;
-  background-color: white;
-  border-bottom: solid 2px black;
+  background-image: url("https://images.unsplash.com/photo-1507832321772-e86cc0452e9c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+  background-size: 800px 400px;
 }
 
 .horizontal-footer {
@@ -27,8 +26,9 @@ body {
   display: flex;
   justify-content: space-between;
   z-index: 1000;
-  background-color: white;
   border-top: solid 2px black;
+  background-image: url("https://images.unsplash.com/photo-1507832321772-e86cc0452e9c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+  background-size: 800px 400px;
 }
 
 .hamburger {
@@ -48,11 +48,11 @@ body {
   width: 50px;
   padding: 0 5px;
   height: calc(100vh - 60px);
-  background-color: cadetblue;
   z-index: 1000;
   overflow: hidden;
   transition: all 0.7s ease-in-out;
   border-right: solid 2px black;
+  background-image: url("https://images.unsplash.com/photo-1509192979022-927d6dcf72fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80");
 }
 
 .hamburger-dropdown ul {
@@ -66,7 +66,6 @@ body {
 .hamburger-dropdown ul li {
   list-style: none;
   line-height: 40px;
-  color: black;
   font-family: "Kalam", cursive;
   font-size: 40px;
 }
@@ -77,7 +76,7 @@ body {
   display: block;
   height: 40px;
   padding: 0 10px;
-  color: black;
+  color: white;
   text-transform: uppercase;
   font-size: 14px;
   transition: all 0.7s ease-in-out;
@@ -85,15 +84,16 @@ body {
 
 .hamburger-dropdown ul li span {
   font-size: 18px;
-  text-decoration: underline black;
+  text-decoration: underline white;
+  color: white;
 }
 
 /* hover listeners  */
 .hamburger:hover {
-  opacity: 0.2;
+  opacity: 0.7;
 }
 
-.hamburger-dropdown ul li a:hover {
+.hamburger-dropdown .hamburger-dropdown ul li a:hover {
   background-color: beige;
 }
 
@@ -109,9 +109,9 @@ body {
   list-style: none;
   line-height: 30px;
   text-transform: uppercase;
-  color: cadetblue;
+  color: orange;
   font-family: "Kalam", cursive;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 /* section {
@@ -147,7 +147,7 @@ body {
 
 .right-side-bar {
   border: solid black 2px;
-  background: cadetblue;
   width: 60px;
   box-sizing: border-box;
+  background-image: url("https://images.unsplash.com/photo-1509192979022-927d6dcf72fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80");
 }
