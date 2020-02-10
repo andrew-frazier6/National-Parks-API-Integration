@@ -42,6 +42,7 @@ function render(parkCode, selector, link, title) {
     .then(res => {
       selector.innerHTML = res.data[0].description;
       link.href = res.data[0].url;
+      link.style.visibility = "visible";
       title.innerHTML = res.data[0].fullName;
     });
 }
