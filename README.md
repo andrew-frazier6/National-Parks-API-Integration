@@ -1,6 +1,7 @@
 # Project #3
 
 - UI Element and API integration
+- Take a look.  https://andrew-frazier6.github.io/Project-3/
 
 ## Description
 
