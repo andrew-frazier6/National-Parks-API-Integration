@@ -1,4 +1,4 @@
-## National_Parks_API_Integration
+## National-Parks-API-Integration
 
 - Take a Look https://andrew-frazier6.github.io/National-Parks-API-Integration/
 
