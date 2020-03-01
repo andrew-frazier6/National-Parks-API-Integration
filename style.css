@@ -17,9 +17,20 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: black;
-  opacity: 0.6;
-  /* background-size: 800px 400px; */
   border-bottom: solid black 2px;
+}
+
+.horizontal h1 {
+  color: white;
+  font-family: "Kalam", cursive;
+  font-size: 3em;
+}
+
+.h1-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .horizontal-footer {
@@ -32,16 +43,14 @@ body {
   z-index: 1000;
   border-top: solid 2px black;
   background-color: black;
-  opacity: 0.6;
-  color: #008040;
-  /* background-image: url("https://images.unsplash.com/photo-1507832321772-e86cc0452e9c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
-  background-size: 800px 400px; */
+  color: white;
+  font-family: "Kalam", cursive;
 }
 
 .hamburger {
   width: 60px;
   height: 100%;
-  background-image: url("/assets/download.png");
+  background-image: url("assets/download.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -90,10 +99,9 @@ body {
 .hamburger-dropdown ul li span {
   font-size: 18px;
   text-decoration: underline white;
-  color: #008040;
+  color: white;
 }
 
-/* hover listeners  */
 .hamburger:hover {
   opacity: 0.7;
 }
@@ -101,8 +109,6 @@ body {
 .hamburger-dropdown ul li a:hover {
   background-color: #008040;
 }
-
-/* seprating both bars */
 
 .horizontal ul {
   display: flex;
@@ -118,13 +124,6 @@ body {
   font-size: 40px;
   z-index: 1000;
 }
-
-/* section {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 .picture-box {
   width: 600px;
@@ -142,26 +141,9 @@ body {
   color: YELLOW;
 }
 
-/* .style-box-bottom-left {
-  width: 60px;
-  height: 60px;
-  background: black;
-} */
-/* .style-box-bottom-right {
-  width: 60px;
-  height: 60px;
-  background: black;
-} */
-/* .style-box-top-right {
-  width: 60px;
-  height: 60px;
-  background: black;
-} */
-
 .right-side-bar {
   border: solid black 2px;
   width: 60px;
   box-sizing: border-box;
   background-color: black;
-  opacity: 0.6;
 }

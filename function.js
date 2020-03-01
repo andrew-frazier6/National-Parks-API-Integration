@@ -1,34 +1,4 @@
-// let state = "id";
 // let parkCodes = ["yose", "acad", "grte", "brca", "gaar", "yell"];
-// Yosemite, Acadia, Grand Teton, Bryce Canyon, Gates of the Artic, Yellowstone
-
-// yosemite
-//developer.nps.gov/api/v1/parks?parkCode=yose&api_key=bRrLhFfbvZMWxHlCWDqPt45vwoNgz950IaYNYkmC
-// acadia
-// https: //developer.nps.gov/api/v1/parks?parkCode=acad&api_key=bRrLhFfbvZMWxHlCWDqPt45vwoNgz950IaYNYkmC
-// Grand Teton
-// https: // "https://developer.nps.gov/api/v1/parks?parkCode=grte&api_key=bRrLhFfbvZMWxHlCWDqPt45vwoNgz950IaYNYkmC"
-//
-
-// function yosemite() {
-//   let url = "https://developer.nps.gov/api/v1/parks?parkCode=";
-//   let parkCode = "yose";
-//   let apiKey =
-//     "&fields=description&api_key=bRrLhFfbvZMWxHlCWDqPt45vwoNgz950IaYNYkmC";
-//   let descriptionBox = document.querySelector(".description");
-
-//   fetch(`https://developer.nps.gov/api/v1/parks?parkCode=${parkCode}${apiKey}`)
-//     .then(res => {
-//       return res.json();
-//     })
-//     .then(res => {
-//       console.log("success with the Search", res.data[0].description);
-//       descriptionBox.innerHTML = res.data[0].description;
-//     })
-//     .catch(err => {
-//       console.log("nope", err);
-//     });
-// }
 
 let description = document.querySelector(".description");
 let link = document.querySelector(".link");
